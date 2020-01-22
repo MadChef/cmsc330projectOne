@@ -7,17 +7,11 @@ application that can be launched
  */
 package cmsc330projectone;
 
-import javax.swing.JFrame;
-import javax.swing.JRadioButton;
-
-
-public class CMSC330ProjectOne  extends JFrame {
+public final class CMSC330ProjectOne {
     
-    private JRadioButton button = new JRadioButton();
-
     public CMSC330ProjectOne (){
         
-    }
+    }//end no arg constructor
     
     public static void main(String[] args) {
         
